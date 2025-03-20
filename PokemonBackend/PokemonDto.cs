@@ -16,6 +16,26 @@
         static PokemonRepository()
         {
             PokemonList = new List<PokemonDto>();
+            {
+                new PokemonDto
+                {
+                    // ImageUrl = "",
+                    Name = "Mew",
+                    Height = 4.0f,
+                    Weight = 40.0f,
+                    Type = "Psycho"
+                };
+            };
+        }
+
+        public static List<PokemonDto> GetAllPokemons()
+        {
+            return PokemonList;
+        }
+
+        public static void AddPokemon(PokemonDto dto)
+        {
+            PokemonList.Add(dto);
         }
     }
 }
