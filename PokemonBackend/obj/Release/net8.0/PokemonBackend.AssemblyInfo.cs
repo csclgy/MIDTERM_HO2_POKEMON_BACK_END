@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PokemonBackend")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+875c7d91474b8ab6164fd329aa8e2e07e6e8dab9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+03e1767429ed65d2cb761bdd8694abff055e2490")]
 [assembly: System.Reflection.AssemblyProductAttribute("PokemonBackend")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PokemonBackend")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
