@@ -27,6 +27,22 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins,
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:3000") // React frontend URL
+                .AllowAnyHeader()
+                .AllowAnyMethod();
+        });
+});
+
+app.UseCors(MyAllowSpecificOrigins);
+
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
