@@ -1,43 +1,33 @@
+using Microsoft.EntityFrameworkCore;
+using PokemonBackend.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var environment = builder.Environment.EnvironmentName;
+builder.Configuration
+    .SetBasePath(Directory.GetCurrentDirectory())
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+    .AddJsonFile($"appsettings.{environment}.json", optional: true)
+    .AddEnvironmentVariables();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<PokemonDbContext>(options =>
+    options.UseSqlServer(connectionString));
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-
-builder.Services.AddSwaggerGen();
-
-builder.Services.AddCors(options => 
-{
-    options.AddDefaultPolicy(p =>
-    {
-        p.AllowAnyHeader();
-        p.AllowAnyMethod();
-        p.AllowAnyOrigin();
-    });
-});
-
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-
     app.UseSwaggerUI();
-
-     app.MapSwagger();
 }
 
 app.UseHttpsRedirection();
-
-app.UseCors();
-
 app.UseAuthorization();
-
 app.MapControllers();
-
 app.Run();
