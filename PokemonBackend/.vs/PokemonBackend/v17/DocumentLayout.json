@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|c:\\users\\admin\\documents\\github\\midterm_ho2_pokemon_back_end\\pokemonbackend\\models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|solutionrelative:models\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|c:\\users\\admin\\documents\\github\\midterm_ho2_pokemon_back_end\\pokemonbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|c:\\users\\admin\\documents\\github\\midterm_ho2_pokemon_back_end\\pokemonbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|c:\\users\\admin\\documents\\github\\midterm_ho2_pokemon_back_end\\pokemonbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|c:\\users\\admin\\documents\\github\\midterm_ho2_pokemon_back_end\\pokemonbackend\\data\\pokemondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|solutionrelative:data\\pokemondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|c:\\users\\admin\\documents\\github\\midterm_ho2_pokemon_back_end\\pokemonbackend\\controllers\\pokedexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|solutionrelative:controllers\\pokedexcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|c:\\users\\admin\\documents\\github\\midterm_ho2_pokemon_back_end\\pokemonbackend\\pokemondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02CF22AD-60CA-4803-B6B0-5E5D1CCB8EF7}|PokemonBackend.csproj|solutionrelative:pokemondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PokemonDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Data\\PokemonDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\PokemonDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Data\\PokemonDbContext.cs",
+              "RelativeToolTip": "Data\\PokemonDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwCEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:26:28.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Models\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Models\\Pokemon.cs",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Models\\Pokemon.cs",
+              "RelativeToolTip": "Models\\Pokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T09:25:17.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T09:21:45.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T18:45:33.74Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-25T18:44:08.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PokedexController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Controllers\\PokedexController.cs",
               "RelativeDocumentMoniker": "Controllers\\PokedexController.cs",
               "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\Controllers\\PokedexController.cs",
               "RelativeToolTip": "Controllers\\PokedexController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T18:44:02.146Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PokemonDto.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\PokemonDto.cs",
-              "RelativeDocumentMoniker": "PokemonDto.cs",
-              "ToolTip": "C:\\Users\\Admin\\Documents\\GitHub\\MIDTERM_HO2_POKEMON_BACK_END\\PokemonBackend\\PokemonDto.cs",
-              "RelativeToolTip": "PokemonDto.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAuwDwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:43:51.618Z",
               "EditorCaption": ""
             }
           ]

@@ -1,92 +1,12 @@
 [
   {
-    "ContainingType": "PokemonBackend.Controllers.PokedexController",
+    "ContainingType": "PokemonAPI.Controllers.PokedexController",
     "Method": "Get",
     "RelativePath": "api/Pokedex",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PokemonBackend.Controllers.PokedexController",
-    "Method": "Post",
-    "RelativePath": "api/Pokedex",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "PokemonBackend.PokemonDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PokemonBackend.Controllers.PokedexController",
-    "Method": "Put",
-    "RelativePath": "api/Pokedex",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "PokemonBackend.PokemonDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PokemonBackend.Controllers.PokedexController",
-    "Method": "Delete",
-    "RelativePath": "api/Pokedex",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "PokemonBackend.PokemonDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PokemonBackend.Controllers.PokedexController",
-    "Method": "GetByName",
-    "RelativePath": "api/Pokedex/get-by-name",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "PokemonBackend.Controllers.PokedexController",
-    "Method": "GetByType",
-    "RelativePath": "api/Pokedex/get-by-type",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "type",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
     "ReturnTypes": []
   },
   {
